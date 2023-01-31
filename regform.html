@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reg</title>
+    <style>
+        body{
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+          
+
+        }
+        input[id="ctryc"]{
+            width:4%;
+            height:5px;
+            margin:8px 0px;
+            padding: 12px 20px;
+            display:inline-block;
+        }
+        #txtar{
+            width:auto;
+        }
+    </style>
+
+</head>
+<body style="font-family:Georgia, 'Times New Roman', Times, serif; background-color:white">
+    <h1 style="text-align:center">SIGHNUP FORM</h1>
+    <BR>
+        <form style="border:3px solid #f1f1f1;">
+<div style="padding:25px;background-color:white">
+<label>First Name:</label>
+<input type="text" name="firstname" maxlength="15" placeholder="first name" required>
+<label>Second Name</label>
+<input type="text" name="second name" placeholder="second name" required>
+<br>
+<br>
+<label>Field:</label>
+<br>
+<select>
+<option value="bca">Technology</option>
+<option value="bBA">Science</option>
+<option value="bcom">Economy</option>
+</select>
+<br>
+<br>
+<label>Gender</label>
+<input type="radio" name="male">Male
+<input type="radio" name="female">Female
+<input type="radio" name="trans">Other
+<br>
+<label>Phone</label>
+<input type="text" name="country code" id="ctryc" value="+91" maxlength="3">
+<input type="number" name="phonenumber"  maxlength="10">
+<br><br>
+<label>Address</label>
+<br>
+<textarea cols="80" rows="5" value="address" id="txtar"></textarea>
+<br><br>
+<label>Email</label>
+<input type="email" id="email" name="email">
+<br><br>
+<label>Password</label>
+<input type="password" id="pass" name="pass" required>
+<br><br>
+<label>Re-enter password</label>
+<input type="password" id="pass" name="pass">
+<br><br>
+<br>
+<button>Register</button>
+<a href="sighnup.html">Already have an account</a>
+</div>
+</form>
+</body>
+</html>
